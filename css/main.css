@@ -1,0 +1,34 @@
+body{
+    background-color:#6ce0e2;
+    padding:50px;
+}
+.wrapper{
+    width:1000px;
+    margin:0 auto;
+}
+.my-photo{
+    width:400px;
+    height:400px;
+    background-image:url("../img/my_phote.jpg");
+    background-size:cover;
+    margin:0 auto;
+    outline:3px solid grey;
+}
+.title, .info{
+    color:#546866;
+    font-size:52px;
+    text-align:center;
+    font-family:Comic Sans Ms;
+}
+.url{
+    text-decoration:none;
+    color:black;
+    text-shadow:0 0 5px yellow;
+    transition:.3s;
+    display:block;
+}
+.url:hover{
+    color:white;
+    text-shadow:green;
+    transition:.3s;
+}
